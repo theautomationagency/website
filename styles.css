@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+body, h1, h2, h3, h4, h5, p, a, li, ul, ol, small, pre {
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.4;
+}
+
+.hero-section {
+  background: url(liquid.gif);
+  background-size: cover;
+  height: 80vh;
+  background-position: top;
+  color: white;
+  /*filter: grayscale(1);*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-section > h4{
+  margin: 0 0 1em 0;
+}
+
+.assistant-section-text{
+  padding: 5em 0;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.assistant-section-text > p{
+  margin:1em auto 0 auto;
+  width:80%;
+}
+.integrate-section {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7),rgba(255,255,255,0)),url(workflow.jpeg);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  height: 80vh;
+}
+
+.integrate-section-band {
+  background-color: #DEE0DF;
+  padding: 4em 0;
+  width: 100%;
+  /*position: absolute;*/
+  /*bottom: 0;*/
+}
+
+.integrate-section-band-text {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.integrate-section-band-text > p {
+  margin-top:1em;
+
+}
+
+.goodwill-section{
+  background: url(working.jpeg);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  height: 80vh;
+}
+
+.goodwill-section-band{
+  /*#E40085*/
+  background-color: #fdebf5;
+  padding: 4em 0;
+  width: 100%;
+}
+
+.goodwill-section-band-text{
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.goodwill-section-band-text > p{
+  margin-top:0.6em;
+}
