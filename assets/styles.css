@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+body, h1, h2, h3, h4, h5, p, a, li, ul, ol, small, pre,div {
+  font-family: 'Work Sans', sans-serif !important;
+  line-height: 1.4;
+}
+
+.mdl-grid {
+  justify-content: center;
+}
+
+.mdl-cell {
+    padding: 20px;
+    background-color: #333;
+    color:white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mdl-cell>p {
+    padding: 20px;
+    text-align: left;
+}
+
+.hero-section {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(liquid.gif);
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 80vh;
+  background-position: top;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.space-section{
+  background: url(space.jpg);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  height: 80vh;
+}
+
+.hero-section>h4 {
+  margin: 0 0 1em 0;
+}
+
+.assistant-section-text {
+  padding: 5em 0;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.assistant-section-text>p {
+  margin: 1em auto 0 auto;
+  width: 80%;
+}
+
+.how-section{
+  position: relative;
+  margin-bottom:-10em;
+  z-index: 300;
+}
+
+.integrate-section {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)), url(workflow.jpeg);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  height: 80vh;
+}
+
+.integrate-section-band {
+  background-color: #DEE0DF;
+  padding: 4em 0;
+  width: 100%;
+  /*position: absolute;*/
+  /*bottom: 0;*/
+}
+
+.integrate-section-band-text {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.integrate-section-band-text>p {
+  margin-top: 1em;
+}
+
+.goodwill-section {
+  background: url(working.jpeg);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  height: 80vh;
+}
+
+.goodwill-section-band {
+  /*#E40085*/
+  background-color: #fdebf5;
+  padding: 4em 0;
+  width: 100%;
+}
+
+.goodwill-section-band-text {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.goodwill-section-band-text>p {
+  margin-top: 0.6em;
+}
+
+@media only screen and (max-width: 600px) (-webkit-min-device-pixel-ratio: 2) {
+  .hero-section>h1 {
+    font-size: 1.8em;
+  }
+  .hero-section>h4 {
+    font-size: 1.3em;
+    margin-bottom: 1.3em;
+  }
+  .goodwill-section, .integrate-section {
+    height: 40vh;
+  }
+  .goodwill-section-band-text, .integrate-section-band-text {
+    width: 80%;
+  }
+}
